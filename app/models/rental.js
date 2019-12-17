@@ -1,4 +1,5 @@
-import Model from '@ember-data/model';
+import DS from 'ember-data';
+const { Model } = DS;
 
 export default Model.extend({
     title: DS.attr(),
