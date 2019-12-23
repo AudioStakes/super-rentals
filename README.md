@@ -43,10 +43,17 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+* `LEAFLET_MAPS_API_KEY=<your key> ember build --environment=development` (production with LEAFLET MAPS)
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* Deploying with surge
+  * `npm install -g surge`
+  * `mv dist/index.html dist/200.html`
+  * `surge dist funny-name.surge.sh`
+
+
+
 
 ## Further Reading / Useful Links
 
